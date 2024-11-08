@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Rocket Animation</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js" type="text/javascript" defer></script>
 </head>
 <body>
-
+  <canvas id="canvas" width="400" height="500"></canvas>
+  <div class="controls">
+    <button onclick="startCountdown()">Start Countdown</button>
+    <h2 id="countdownDisplay">Countdown: 10</h2>
+  </div>
 </body>
 </html>

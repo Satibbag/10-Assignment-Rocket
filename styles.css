@@ -1,0 +1,11 @@
+canvas {
+    background-color: skyblue;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
